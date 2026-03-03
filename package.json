@@ -2,7 +2,12 @@
   "name": "androgeek",
   "version": "1.0.0",
   "description": "Androgeek - Tienda online de tecnología y más",
-  "keywords": ["androgeek", "ecommerce", "tienda online", "tecnología"],
+  "keywords": [
+    "androgeek",
+    "ecommerce",
+    "tienda online",
+    "tecnología"
+  ],
   "author": "Dave Bastidas <bastidasdaveusa@gmail.com>",
   "license": "ISC",
   "workspaces": [
@@ -18,7 +23,8 @@
     "dev": "evershop dev",
     "seed": "evershop seed",
     "user:create": "evershop user:create",
-    "user:changePassword": "evershop user:changePassword"
+    "user:changePassword": "evershop user:changePassword",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@evershop/evershop": "^2.1.1"
@@ -27,6 +33,7 @@
     "@types/express": "^5.0.6",
     "@types/node": "^25.3.3",
     "@types/react": "^19.2.14",
+    "patch-package": "^8.0.1",
     "typescript": "^5.9.3"
   }
 }

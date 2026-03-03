@@ -29,3 +29,6 @@ Thumbs.db
 
 # Temp files
 run-setup.mjs
+
+# Extensions dist (compilado, no rastrear)
+extensions/*/dist/
