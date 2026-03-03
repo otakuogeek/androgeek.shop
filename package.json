@@ -1,0 +1,32 @@
+{
+  "name": "androgeek",
+  "version": "1.0.0",
+  "description": "EverShop ecommerce project",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "extensions/*",
+    "themes/*"
+  ],
+  "scripts": {
+    "setup": "evershop install",
+    "build": "evershop build",
+    "build-fast": "evershop build -- --skip-minify",
+    "start": "evershop start",
+    "start:debug": "evershop start --debug",
+    "dev": "evershop dev",
+    "seed": "evershop seed",
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
+  },
+  "dependencies": {
+    "@evershop/evershop": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
+    "@types/react": "^19.2.14",
+    "typescript": "^5.9.3"
+  }
+}

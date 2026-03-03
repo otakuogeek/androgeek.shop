@@ -1,0 +1,24 @@
+{
+  "system": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "catalog": {
+    "product": {
+      "image": {
+        "thumbnail": {
+          "width": 100,
+          "height": 100
+        },
+        "listing": {
+          "width": 300,
+          "height": 300
+        },
+        "single": {
+          "width": 500,
+          "height": 500
+        }
+      }
+    }
+  }
+}
