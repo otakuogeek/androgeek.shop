@@ -1,9 +1,9 @@
 {
   "name": "androgeek",
   "version": "1.0.0",
-  "description": "EverShop ecommerce project",
-  "keywords": [],
-  "author": "",
+  "description": "Androgeek - Tienda online de tecnología y más",
+  "keywords": ["androgeek", "ecommerce", "tienda online", "tecnología"],
+  "author": "Dave Bastidas <bastidasdaveusa@gmail.com>",
   "license": "ISC",
   "workspaces": [
     "extensions/*",
