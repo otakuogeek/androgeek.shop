@@ -1,3 +1,28 @@
+diff --git a/dist/modules/cms/pages/admin/all/Survey.js b/dist/modules/cms/pages/admin/all/Survey.js
+index 1111111..2222222 100644
+--- a/dist/modules/cms/pages/admin/all/Survey.js
++++ b/dist/modules/cms/pages/admin/all/Survey.js
+@@ -1,16 +1,4 @@
+-import { Button } from '@components/common/ui/Button.js';
+-import { MessageSquare } from 'lucide-react';
+ import React from 'react';
+ export default function Survey() {
+-    const surveyUrl = 'https://evershop.io/admin-survey';
+-    const handleSurveyClick = () => {
+-        window.open(surveyUrl, '_blank', 'noopener,noreferrer');
+-    };
+-    return (React.createElement("div", { className: "fixed bottom-6 right-6 z-50" },
+-        React.createElement(Button, { onClick: handleSurveyClick, size: "default", className: "shadow-lg hover:shadow-xl transition-shadow gap-2", title: "Take our survey" },
+-            React.createElement(MessageSquare, { className: "size-4" }),
+-            "Give Feedback")));
+-}
+-export const layout = {
+-    areaId: 'content',
+-    sortOrder: 999
+-};
+-//# sourceMappingURL=Survey.js.map
++    return null;
++}
 diff --git a/src/modules/cms/pages/admin/all/Survey.tsx b/src/modules/cms/pages/admin/all/Survey.tsx
 index 1111111..2222222 100644
 --- a/src/modules/cms/pages/admin/all/Survey.tsx
