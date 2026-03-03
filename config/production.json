@@ -1,6 +1,10 @@
 {
   "system": {
     "port": 3000,
-    "host": "0.0.0.0"
+    "host": "0.0.0.0",
+    "baseUrl": "https://androgeek.shop"
+  },
+  "shop": {
+    "homeUrl": "https://androgeek.shop"
   }
 }
