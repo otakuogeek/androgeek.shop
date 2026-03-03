@@ -1,7 +1,18 @@
 {
   "system": {
     "port": 3000,
-    "host": "0.0.0.0"
+    "host": "0.0.0.0",
+    "extensions": [
+      {
+        "name": "androgeek-branding",
+        "resolve": "extensions/androgeek-branding",
+        "enabled": true,
+        "priority": 1
+      }
+    ]
+  },
+  "themeConfig": {
+    "copyRight": "© 2026 AndroGeek. All Rights Reserved."
   },
   "shop": {
     "name": "Androgeek",
